@@ -1,0 +1,64 @@
+apiVersion: v1
+entries:
+  multus:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2025-04-15T15:50:37.788901906Z"
+    description: Multus Helm chart for Kubernetes
+    digest: 57b9ca76551b2282283afa2fb063c7d842d436430de4fa8417b7ad3eb646e488
+    home: https://github.com/intel/multus-cni
+    icon: https://raw.githubusercontent.com/intel/multus-cni/master/doc/images/Multus.png
+    maintainers:
+    - name: Network Plumbing Group
+    name: multus
+    sources:
+    - https://github.com/intel/multus-cni
+    type: application
+    urls:
+    - https://github.com/swisscom/k8snetworkplumbingwg-helm-charts/releases/download/multus-0.1.2/multus-0.1.2.tgz
+    version: 0.1.2
+  network-resources-injector:
+  - apiVersion: v2
+    appVersion: "1.3"
+    created: "2025-04-15T15:50:37.890092114Z"
+    description: Network resource injector helm chart for Kubernetes
+    digest: a2e2abbc60adeb5991ec77c8f776e6bbf4481f8be3349b70cf5c461a429d6964
+    home: https://github.com/k8snetworkplumbingwg/network-resources-injector
+    maintainers:
+    - name: Network Plumbing Group
+    name: network-resources-injector
+    sources:
+    - https://github.com/k8snetworkplumbingwg/network-resources-injector
+    type: application
+    urls:
+    - https://github.com/swisscom/k8snetworkplumbingwg-helm-charts/releases/download/network-resources-injector-0.1.0/network-resources-injector-0.1.0.tgz
+    version: 0.1.0
+  sriov:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2025-04-15T15:50:38.014346621Z"
+    description: SR-IOV CNI Helm chart for Kubernetes
+    digest: 7e45712881e143bc0606c3294311c185e445f4db6d3091fbfb182e09ba8d8a52
+    home: https://github.com/intel/sriov-network-device-plugin
+    maintainers:
+    - name: Network Plumbing Group
+    name: sriov
+    sources:
+    - https://github.com/intel/sriov-network-device-plugin
+    - https://github.com/intel/sriov-cni
+    type: application
+    urls:
+    - https://github.com/swisscom/k8snetworkplumbingwg-helm-charts/releases/download/sriov-0.1.1/sriov-0.1.1.tgz
+    version: 0.1.1
+  whereabouts:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-04-15T15:50:38.123465676Z"
+    description: A Helm chart for Kubernetes
+    digest: 9356bf03e3d6238596219065b0a58300c7af04bea73db4aee696322be682d179
+    name: whereabouts
+    type: application
+    urls:
+    - https://github.com/swisscom/k8snetworkplumbingwg-helm-charts/releases/download/whereabouts-0.1.1/whereabouts-0.1.1.tgz
+    version: 0.1.1
+generated: "2025-04-15T15:50:38.123470986Z"
